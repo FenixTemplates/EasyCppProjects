@@ -289,6 +289,88 @@
         "command": ".\\build.bat"
       },
       {
+        "id": "easycppprojects-msvc-2022-x64",
+        "displayName": "[MSVC] Windows x64, Visual Studio Build Tools 2022",
+        "description": "Create a C++ project structure for MSVC 2022 x64",
+        "language": "C++",
+        "category": [
+            "Programming"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+        "directories": [
+            ".vscode",
+            "bin",
+            "include",
+            "lib",
+            "src"
+        ],
+        "files": {
+            "download": [
+                {
+                    "from": "cpp/main.cpp",
+                    "to": "src/main.cpp"
+                },
+                {
+                    "from": "msvc/build_x64_2022.bat",
+                    "to": "build.bat"
+                },
+                {
+                    "from": "msvc/tasks.json",
+                    "to": ".vscode/tasks.json"
+                },
+                {
+                    "from": "msvc/launch.json",
+                    "to": ".vscode/launch.json"
+                }
+            ],
+            "open": [
+                "src/main.cpp"
+            ]
+        },
+        "command": ".\\build.bat"
+      },
+      {
+        "id": "easycppprojects-msvc-2022-x86",
+        "displayName": "[MSVC] Windows x86, Visual Studio Build Tools 2022",
+        "description": "Create a C++ project structure for MSVC 2022 x86",
+        "language": "C++",
+        "category": [
+            "Programming"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+        "directories": [
+            ".vscode",
+            "bin",
+            "include",
+            "lib",
+            "src"
+        ],
+        "files": {
+            "download": [
+                {
+                    "from": "cpp/main.cpp",
+                    "to": "src/main.cpp"
+                },
+                {
+                    "from": "msvc/build_x86_2022.bat",
+                    "to": "build.bat"
+                },
+                {
+                    "from": "msvc/tasks.json",
+                    "to": ".vscode/tasks.json"
+                },
+                {
+                    "from": "msvc/launch.json",
+                    "to": ".vscode/launch.json"
+                }
+            ],
+            "open": [
+                "src/main.cpp"
+            ]
+        },
+        "command": ".\\build.bat"
+      },
+      {
         "id": "easycppprojects-cmake",
         "displayName": "[CMake] Cross-platform (Created by KochankovID)",
         "description": "Create a C++ project structure for CMake",
